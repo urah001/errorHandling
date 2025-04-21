@@ -56,13 +56,25 @@ yarn dev
 
 <details>
  
+ <summary> package.json : unable to load  </summary>
+
+ 
+- Error:  Unable to load schema from 'https://json.schemastore.org/package': getaddrinfo EAI_AGAIN .
+
+- solution : reload/restart vs code  
+  
+</details>
+
+---
+<details>
+ 
  <summary> angular : command not available </summary>
 
 - $ ng serve
  
 - Error: This command is not available when running the Angular CLI outside a workspace.
 
-- solution : reload/restart vs code  
+- solution : 
   
 </details>
 
