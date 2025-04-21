@@ -2,27 +2,34 @@
 
 this is my personal error handling documentation i dont think its the standard way of error handling but at least it works 
 
-- error { 
-- npm ERR! code ERESOLVE
+<details> 
+ <summary> npm ERR! code ERESOLVE </summary>
+ error   :
+
+ - npm ERR! code ERESOLVE
 - npm ERR! ERESOLVE unable to resolve dependency tree
 - npm ERR!
-- } 
-- temporary sol:  npm i kinde-angular --legacy-peer-deps                            
+  
+- ```temporary sol:  npm i kinde-angular --legacy-peer-deps ```                           
 
-- error {
-- npm run dev / start
-- [project name][version] dev
-- next dev
-- bus error 
-- }
-- temporary sol : A Bus Error when running npm run dev with Next.js (using Turbopack) usually means there's a low-level issue with memory access. Here’s how to fix it:
-
+</details>
 
 ---
+<details>
+ 
+<summary> bus error </summary>
 
-🔥 Possible Causes & Fixes
+- error
+- $ npm run dev / start
+- $ [project name][version] dev
+- $ next dev
+- $ bus error 
+ 
 
-1️⃣ Clear npm Cache & Reinstall Dependencies
+ - temporary sol : A Bus Error when running npm run dev with Next.js (using Turbopack) usually means there's a low-level issue with memory access.
+ - Here’s how to fix it:
+
+Clear npm Cache & Reinstall Dependencies
 
 Corrupted dependencies can cause bus errors.
 
@@ -40,5 +47,21 @@ yarn dev
 
  Delete & reinstall dependencies (rm -rf node_modules && npm install).
 
-
 5. Run in Safe Mode (NODE_OPTIONS="--napi-modules").
+   
+
+</details>
+
+---
+
+<details>
+ 
+ <summary> angular : command not available </summary>
+
+- $ ng serve
+ 
+- Error: This command is not available when running the Angular CLI outside a workspace.
+  
+</details>
+
+---
