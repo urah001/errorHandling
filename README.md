@@ -61,6 +61,8 @@ yarn dev
 - $ ng serve
  
 - Error: This command is not available when running the Angular CLI outside a workspace.
+
+- solution : reload/restart vs code  
   
 </details>
 
