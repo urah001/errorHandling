@@ -74,7 +74,7 @@ yarn dev
  
 - Error: This command is not available when running the Angular CLI outside a workspace.
 
-- solution : 
+- solution : right click on the folder and click the `open intergrated terminal here` or cd to the project main folder and rerun 
   
 </details>
 
