@@ -33,18 +33,19 @@ Clear npm Cache & Reinstall Dependencies
 
 Corrupted dependencies can cause bus errors.
 
+```
 rm -rf node_modules package-lock.json
 npm cache clean --force
 npm install
 npm run dev
-
+```
 If you’re using Yarn:
-
+```
 rm -rf node_modules yarn.lock
 yarn cache clean
 yarn install
 yarn dev
-
+```
  Delete & reinstall dependencies (rm -rf node_modules && npm install).
 
 5. Run in Safe Mode (NODE_OPTIONS="--napi-modules").
