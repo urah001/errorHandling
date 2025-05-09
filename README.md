@@ -90,3 +90,29 @@ yarn dev
 </details>
 
 ---
+
+
+<details>
+
+<summary>
+ Your custom PostCSS configuration must export a `plugins` key.
+</summary>
+
+solution : edit or add if you dont have a `postcss.config.js`/`postcss.config.mjs` file with this : 
+
+```
+
+// postcss.config.mjs
+import tailwindcss from 'tailwindcss'
+import autoprefixer from 'autoprefixer'
+
+/** @type {import('postcss-load-config').Config} */
+const config = {
+  plugins: [tailwindcss, autoprefixer],
+};
+
+export default config;
+```
+ 
+</details>
+
