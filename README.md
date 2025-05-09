@@ -117,3 +117,24 @@ export default config;
  
 </details>
 
+---
+
+<details>
+
+<summary>
+ hydration warning
+</summary>
+
+ solution : put 
+ ```
+ suppressHydrationWarning
+```  
+ 
+ in 
+ 
+ ```<html lang="en" suppressHydrationWarning>``` 
+ 
+ located in the app/layout.tsx
+</details>
+
+---
