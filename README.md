@@ -79,3 +79,14 @@ yarn dev
 </details>
 
 ---
+
+<details>
+ <summary>
+ npm run dev  ✓ Starting... then stops
+ </summary>
+
+-solution : restart your pc / system 
+ 
+</details>
+
+---
