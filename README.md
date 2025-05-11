@@ -132,7 +132,7 @@ export default config;
  
  in 
  
- <html lang="en" suppressHydrationWarning>``` 
+ <html lang="en" suppressHydrationWarning> 
  
  located in the app/layout.tsx
 </details>
