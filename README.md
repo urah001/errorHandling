@@ -138,3 +138,18 @@ export default config;
 </details>
 
 ---
+
+<details>
+
+ <summary>
+  files not uploading in git
+ </summary>
+ 
+> git push -u origin main
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+</details>
+
+---
