@@ -155,3 +155,17 @@ Everything up-to-date
 </details>
 
 ---
+
+<details>
+
+ <summary>
+  Import "[module]" could not be resolvedPylancereportMissingImports
+ </summary>
+
+```soln``` : add ``` # type: ignore ``` to the end of the import statement to ignore this warning if you know you already installed this 
+
+</details>
+
+---
+
+
