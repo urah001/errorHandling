@@ -87,6 +87,7 @@ yarn dev
  </summary>
 
 -solution : restart your pc / system 
+-solution2 : reinstall node modules and pack.lock.json
  
 </details>
 
