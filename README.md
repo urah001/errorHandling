@@ -2,6 +2,22 @@
 
 this is my personal error handling documentation i dont think its the standard way of error handling but at least it works 
 
+<details>
+ <summary>
+  JSX element class does not support attributes because it does not have a 'props' property
+ </summary>
+ solution :  // Correct import for a default export
+    import MyComponent from './MyComponent';
+
+    // Correct import for a named export
+    import { MyComponent } from './MyComponent'; // Correct import for a default export
+    import MyComponent from './MyComponent';
+
+    // Correct import for a named export
+    import { MyComponent } from './MyComponent';
+</details>
+
+
 <details> 
  <summary> npm ERR! code ERESOLVE </summary>
  error   :
