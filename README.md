@@ -27,7 +27,7 @@ this is my personal error handling documentation i dont think its the standard w
 - npm ERR!
   
 - ```temporary sol:  npm i kinde-angular --legacy-peer-deps ```                           
-
+``` for global fixing or temp global fixing : npm i --legacy-peer-deps```
 </details>
 
 ---
